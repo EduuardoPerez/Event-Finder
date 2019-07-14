@@ -17,13 +17,7 @@ class CategoriasProvider extends Component {
     this.obtenerCategorias();
   }
 
-/*
-  Aquí es donde se hace la consulta con fetch o con axios.
-  fetch ya viene en JS axios no es nativo de JS.
-
-  Axios hace mucho mas facil los llamados a una API de este tipo.
-  Axios funciona con Promises
-*/
+  // Consulta a la API
   obtenerCategorias = async () => {
     let url = `https://www.eventbriteapi.com/v3/categories/?token=${this.token}&locale=es_ES`;
 

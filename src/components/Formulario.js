@@ -35,10 +35,6 @@ class Formulario extends Component {
               </fieldset>
               <div className="uk-column-1-3@m uk-margin">
                 <div className="uk-margin" uk-margin="true">
-                  {/*
-                    El name del input tiene que mapearse con los atributos
-                    del state
-                  */}
                   <input 
                     name="nombre"
                     className="uk-input"

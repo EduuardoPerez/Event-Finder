@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Header from './components/Header';
 import Formulario from './components/Formulario';
 import ListaEventos from './components/ListaEventos';
@@ -7,13 +7,6 @@ import EventosProvider from './context/EventosContext';
 
 function App() {
   return (
-    /*
-      El componente que se encargará de los eventos puede contener a todos
-      los demas componente, para que así, estos puedan utilizar sus métodos
-
-      También se colocar rodeando solo a los elementos que generarán un evento
-      pero no sabemos si más adelante los demás también lo necesitarán
-    */
     <EventosProvider>
       <CategoriasProvider>
         <Header />

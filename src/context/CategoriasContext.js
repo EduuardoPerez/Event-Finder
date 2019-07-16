@@ -30,7 +30,6 @@ class CategoriasProvider extends Component {
 
   render(){
     return(
-      // En el provider es donde nacen los datos
       <CategoriasContext.Provider
         value={{
           categorias: this.state.categorias
